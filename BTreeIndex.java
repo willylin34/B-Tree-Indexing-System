@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.RandomAccessFile;
 
-public class Project3 {
+public class BTreeIndex {
     static final int BLOCK_SIZE = 512;
     static final int MIN_DEGREE = 10;
     static final int MAX_KEYS = 2 * MIN_DEGREE - 1;
@@ -579,11 +579,11 @@ public class Project3 {
 
     static void printUsage() {
         System.out.println("Usage:");
-        System.out.println("  java Project3 create <indexfile>");
-        System.out.println("  java Project3 insert <indexfile> <key> <value>");
-        System.out.println("  java Project3 search <indexfile> <key>");
-        System.out.println("  java Project3 load <indexfile> <csvfile>");
-        System.out.println("  java Project3 print <indexfile>");
-        System.out.println("  java Project3 extract <indexfile> <csvfile>");
+        System.out.println("  java BTreeIndex create <indexfile>");
+        System.out.println("  java BTreeIndex insert <indexfile> <key> <value>");
+        System.out.println("  java BTreeIndex search <indexfile> <key>");
+        System.out.println("  java BTreeIndex load <indexfile> <csvfile>");
+        System.out.println("  java BTreeIndex print <indexfile>");
+        System.out.println("  java BTreeIndex extract <indexfile> <csvfile>");
     }
 }
