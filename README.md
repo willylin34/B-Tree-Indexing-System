@@ -144,5 +144,3 @@ B-Tree-Indexing-System/
 ├── README.md          # Project documentation
 └── devlog.md          # Development notes
 ```
-
-**Note:** The source file and public Java class must have the same name. If the code still declares `public class Project3`, change that declaration to `public class BTreeIndex` before using the commands shown above. Also update the `printUsage()` messages from `java Project3` to `java BTreeIndex`.
